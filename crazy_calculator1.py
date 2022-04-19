@@ -53,7 +53,6 @@ if __name__ == '__main__':
            '/': operator.truediv,
            '+': operator.add,
            '-': operator.sub}
-    input_string = str
     muldiv_list = ['*', '/', '+', '-']
     last_digits = [0, 0]
     digit_list = []
