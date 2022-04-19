@@ -24,6 +24,7 @@ def main(input_string=str):
 def if_digit(input_string):
     last_digits.pop(0)
     last_digits.append(input_string)
+    return last_digits[1]
 
 
 def simple_ops(input_string):
