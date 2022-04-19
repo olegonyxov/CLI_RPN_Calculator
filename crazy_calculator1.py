@@ -3,8 +3,7 @@ import argparse, operator, logging
 
 def main(input_string=str):
     if i_string:
-        input_string = i_string
-        multiple(input_string)
+        multiple(i_string)
         logging.info(f'Result= {last_digits[1]}')
         print(last_digits[1])
     else:
