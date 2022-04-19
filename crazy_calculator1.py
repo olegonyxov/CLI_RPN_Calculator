@@ -2,7 +2,6 @@ import argparse, operator, logging
 
 
 def main(input_string=str):
-    logging.basicConfig(filename='calc.log', level=logging.INFO)
     if i_string:
         input_string = i_string
         multiple(input_string)
@@ -58,7 +57,7 @@ if __name__ == '__main__':
     last_digits = [0, 0]
     digit_list = []
     atfirst_list = []
-
+    logging.basicConfig(filename='calc.log', level=logging.INFO)
     parser = argparse.ArgumentParser(description="Process")
     parser.add_argument("--i_string", type=str, help="input your string")
     args = parser.parse_args()
